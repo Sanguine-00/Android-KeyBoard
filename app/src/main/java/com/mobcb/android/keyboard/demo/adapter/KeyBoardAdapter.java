@@ -75,6 +75,7 @@ public class KeyBoardAdapter extends RecyclerView.Adapter<KeyBoardAdapter.ViewHo
             holder.mAppCarPalateKeyboardItemBtn.setText(s);
             holder.mAppCarPalateKeyboardItemImage.setImageDrawable(null);
             holder.mAppCarPalateKeyboardItemImage.setVisibility(View.GONE);
+            holder.mAppCarPalateKeyboardItemBtn.setVisibility(View.VISIBLE);
             holder.itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
